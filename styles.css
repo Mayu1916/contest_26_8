@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container, .profile-container {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+  }
+  
+  #signup-message {
+    color: green;
+  }
+  
+  #error-message {
+    color: red;
+  }
+  
